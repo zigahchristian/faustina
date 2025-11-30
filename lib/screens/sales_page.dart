@@ -224,7 +224,7 @@ class _SalesPageState extends State<SalesPage> {
                 key: _formKey,
                 child: Column(
                   children: [
-                    Text('Add Sale', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white)),
+                    Text('Add Sale', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
                     SizedBox(height: 16),
                     TextFormField(
                       controller: _descriptionController,
